@@ -4,9 +4,9 @@ import abstractions.Book;
 import abstractions.Buyable;
 import services.ShipingService;
 
-public class PhysicalBook extends Book implements Buyable {
+public class PaperBook extends Book implements Buyable {
     private int stock;
-    public PhysicalBook(String ISBN, String title, int yearPublished, double price, int stock) {
+    public PaperBook(String ISBN, String title, int yearPublished, double price, int stock) {
         super(ISBN, title, yearPublished, price);
         this.stock = stock;
     }

@@ -1,19 +1,17 @@
 import models.*;
-import abstractions.Book;
-import abstractions.Buyable;
 import models.Inventory;
 
 public class Main {
     public static void main(String[] args) {
-//        testHappyCase();
+        testHappyCase();
 //         testRemoveOutdatedBooks();
 //         testAddingRemovingBuyingBooks();
-         testBookOutOfStock();
+//         testBookOutOfStock();
     }
 
     public static void testHappyCase() {
         try {
-            PhysicalBook book1 = new PhysicalBook(
+            PaperBook book1 = new PaperBook(
                 "1234", "x", 1925, 15.99, 10
             );
             
@@ -43,11 +41,11 @@ public class Main {
 
     public static void testRemoveOutdatedBooks() {
         try {
-            PhysicalBook oldBook1 = new PhysicalBook(
+            PaperBook oldBook1 = new PaperBook(
                     "1234", "x", 1925, 15.99, 10
             );
             
-            PhysicalBook oldBook2 = new PhysicalBook(
+            PaperBook oldBook2 = new PaperBook(
                     "12345", "x", 1925, 15.99, 10
             );
             
@@ -74,11 +72,11 @@ public class Main {
 
     public static void testAddingRemovingBuyingBooks() {
         try {
-            PhysicalBook Book1 = new PhysicalBook(
+            PaperBook Book1 = new PaperBook(
                     "1234", "x", 1925, 15.99, 10
             );
 
-            PhysicalBook Book2 = new PhysicalBook(
+            PaperBook Book2 = new PaperBook(
                     "12345", "x", 1925, 15.99, 10
             );
 
@@ -105,11 +103,11 @@ public class Main {
 
     public static void testBookOutOfStock() {
         try {
-            PhysicalBook Book1 = new PhysicalBook(
+            PaperBook Book1 = new PaperBook(
                     "1234", "x", 1925, 15.99, 1
             );
 
-            PhysicalBook Book2 = new PhysicalBook(
+            PaperBook Book2 = new PaperBook(
                     "12345", "x", 1925, 15.99, 1
             );
 
