@@ -24,3 +24,10 @@ testRemoveOutdatedBooks();
 testAddingRemovingBuyingBooks();
 testBookOutOfStock();
 ```
+
+## Screenshots of running the application
+
+![Screenshot 2025-07-08 220942](Screenshots/Screenshot%202025-07-08%20220942.png)
+![Screenshot 2025-07-08 221005](Screenshots/Screenshot%202025-07-08%20221005.png)
+![Screenshot 2025-07-08 221029](Screenshots/Screenshot%202025-07-08%20221029.png)
+![Screenshot 2025-07-08 221050](Screenshots/Screenshot%202025-07-08%20221050.png)

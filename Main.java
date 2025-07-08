@@ -3,10 +3,10 @@ import models.Inventory;
 
 public class Main {
     public static void main(String[] args) {
-        testHappyCase();
+//        testHappyCase();
 //         testRemoveOutdatedBooks();
 //         testAddingRemovingBuyingBooks();
-//         testBookOutOfStock();
+         testBookOutOfStock();
     }
 
     public static void testHappyCase() {
